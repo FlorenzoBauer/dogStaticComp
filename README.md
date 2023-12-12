@@ -1,4 +1,7 @@
-## Static Comp Challenge 1 - Backend + Frontend Module 2
+## Static Comp Challenge 1 - Frontend Module 2
+
+## Abstract
+<!-- goes here -->
 
 ## Specification
 
