@@ -1,0 +1,143 @@
+/* 
+light blue color: 92E0E4
+dark Blue: 3F8DA8
+*/
+body {
+    font-family: Arial;
+    font-weight: lighter;
+    
+}
+header {
+    background-color: #92E0E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    row-gap: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav-item:hover {
+    color: black;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.logo {
+    height: 20px;
+    justify-content: start;
+}
+
+@media screen and (min-width: 600px) {
+    nav {
+        margin-left: auto;
+    }
+}
+
+.main-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/park.jpg");
+    height: 350px;
+}
+
+.main-image {
+    border-radius: 100px;
+    border: solid 4px;
+    border-color: #3f9da8;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.main-image-button {
+    border-color: #3f9da8;
+    border: solid 3px;
+    background-color: #fff;
+    color:#3f9da8
+}
+.muskateers {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.muskateers > div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+h2 {
+    font-weight: 100;
+    font-size: 15px;
+}
+.muskateers img {
+    border: solid 2px;
+    border-color: #3f9da8;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    object-fit: cover; 
+    margin-bottom: 10px; 
+}
+
+.muskateers-button {
+    border-color: #3f9da8;
+    border: solid 3px;
+    background-color: #fff;
+    color:#3f9da8
+}
+.end {
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #3f8da8;
+}
+
+.end p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.end ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.end li img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.end a {
+    display: block;
+    margin-top: 15px; 
+    color: #fff; 
+    text-decoration: underline;
+}
+
+.end a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
